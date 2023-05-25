@@ -1,0 +1,18 @@
+VS Code Shortcuts
+
+Ctrl + Alt + N : Run code
+
+Ctrl + Shift + N : Open a new window
+
+Alt + Click : Create multiple cursors
+
+Ctrl + P : Displays the search bar
+
+Ctrl + Shift + M : Shows errors and warnings
+
+Ctrl + ` : Show terminal
+
+Shift + Alt + Up/Down Arrow : Copies a line
+
+Ctrl + Shift + K : Delete a line
+
