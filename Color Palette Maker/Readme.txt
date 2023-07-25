@@ -1,0 +1,1 @@
+Color Palette Maker is a tool that allows you to create beautiful color palettes that can be used for graphic, web and all types of designs works.
