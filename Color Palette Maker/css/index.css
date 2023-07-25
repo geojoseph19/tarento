@@ -6,7 +6,7 @@
 }
 .container{
     width: 100%;
-    min-height: 90vh;
+    min-height: 100vh;
     background-color: rgb(255, 255, 255);
     background-size: cover;
     background-position: center;
@@ -17,20 +17,21 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 30px;
+    padding: 0px 30px;
+    padding-left: 0;
     background-color: #ffffff;
     filter: drop-shadow(0.5em 0.2em 0.1em #e6e5e5a1);
     animation: myanimation 10s infinite;
 }
 @keyframes myanimation {
     0% {background-color: rgb(255, 222, 255);}
-    25%{background-color:rgb(255, 255, 225);}
+    25%{background-color:rgb(255, 247, 225);}
     50%{background-color:rgb(225, 255, 225);}
     75%{background-color:rgb(255, 225, 225);}
     100% {background-color: rgb(255, 225, 225);}
   }
 .logo{
-    width: 150px;
+    width: 180px;
     cursor: pointer;
 }
 
@@ -64,8 +65,8 @@ nav ul li a{
 }
 @keyframes myanimation2 {
     0% {background-color: rgb(156, 68, 156);}
-    25%{background-color:rgb(143, 143, 61);}
-    50%{background-color:rgb(63, 158, 63);}
+    25%{background-color:rgb(143, 105, 61);}
+    50%{background-color:rgb(50, 138, 50);}
     75%{background-color:rgb(158, 66, 66);}
     100% {background-color: rgb(160, 65, 65);}
   }
