@@ -13,9 +13,10 @@
             <img class="logo" src="images/logov3.png" alt="logo" >
             <ul>
                 <li> <a href="#">My Palettes</a></li>
-                <li><a href="#">Login</a></li>   
+                <li><a href="#">Explore</a></li>   
+                <li><button class="btn"><img src="images/user.png" alt="" class="icon">Login</button></li>
             </ul>
-            <button class="btn"><img src="images/user.png" alt="">Login</button>
+            
 
         </nav>
         <div class="innercont">
@@ -40,7 +41,8 @@
         </div>
         <div id="settings">
             <p>-------Settings-------</p>
-            <p>Shuffle colors  &nbsp ~  &nbsp <input type="checkbox" class="checkbox"> </p> 
+            <p>Shuffle colors  &nbsp ~  &nbsp <input type="checkbox" class="checkbox" id="shufflebox" onclick="shuffleFun()"> </p> 
+            <button id="resetbtn" onclick="resetSettings()" >Reset</button>
         </div>
 
 
