@@ -3,6 +3,17 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    
+}
+@keyframes bodyanimation {
+    0% {background-color: rgba(253, 242, 253, 0.466);}
+    25%{background-color:rgba(255, 252, 244, 0.418);}
+    50%{background-color:rgba(245, 255, 246, 0.486);}
+    75%{background-color:rgba(255, 244, 244, 0.5);}
+    100% {background-color: rgba(255, 247, 251, 0.479);}
+  }
+body{
+    animation: bodyanimation 15s infinite;
 }
 .container{
     width: 100%;
@@ -10,6 +21,7 @@
     background-size: cover;
     background-position: center;
     padding: 0 0; /* set the header width */
+    animation: bodyanimation 15s infinite;
 }
 
 nav{
@@ -21,7 +33,7 @@ nav{
     padding-left: 0;
     background-color: #ffffff;
   /*  filter: drop-shadow(0.5em 0.2em 0.1em #e6e5e5a1); */
-    animation: myanimation 10s infinite;
+    animation: myanimation 15s infinite;
 }
 @keyframes myanimation {
     0% {background-color: rgb(255, 222, 255);}
@@ -60,7 +72,7 @@ nav ul li a{
     color: #fff;
     font-weight: 500;
     cursor: pointer;
-    animation: myanimation2 10s infinite;
+    animation: myanimation2 15s infinite;
 }
 @keyframes myanimation2 {
     0% {background-color: rgb(156, 68, 156);}
