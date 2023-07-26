@@ -6,12 +6,12 @@
 }
 .container{
     width: 100%;
-    min-height: 100vh;
     background-color: rgb(255, 255, 255);
     background-size: cover;
     background-position: center;
     padding: 0 0; /* set the header width */
 }
+
 nav{
     width: 100%;
     display: flex;
@@ -20,15 +20,15 @@ nav{
     padding: 0px 30px;
     padding-left: 0;
     background-color: #ffffff;
-    filter: drop-shadow(0.5em 0.2em 0.1em #e6e5e5a1);
+  /*  filter: drop-shadow(0.5em 0.2em 0.1em #e6e5e5a1); */
     animation: myanimation 10s infinite;
 }
 @keyframes myanimation {
     0% {background-color: rgb(255, 222, 255);}
     25%{background-color:rgb(255, 247, 225);}
-    50%{background-color:rgb(225, 255, 225);}
+    50%{background-color:rgb(225, 255, 229);}
     75%{background-color:rgb(255, 225, 225);}
-    100% {background-color: rgb(255, 225, 225);}
+    100% {background-color: rgb(255, 225, 240);}
   }
 .logo{
     width: 180px;
@@ -49,7 +49,6 @@ nav ul li a{
     color: rgb(66, 66, 66);
     text-decoration: none;
 }
-
 .btn{
     display: flex;
     align-items: center;
@@ -66,11 +65,31 @@ nav ul li a{
 @keyframes myanimation2 {
     0% {background-color: rgb(156, 68, 156);}
     25%{background-color:rgb(143, 105, 61);}
-    50%{background-color:rgb(50, 138, 50);}
+    50%{background-color:rgb(50, 138, 79);}
     75%{background-color:rgb(158, 66, 66);}
-    100% {background-color: rgb(160, 65, 65);}
+    100% {background-color: rgb(160, 65, 117);}
   }
 .btn img{
     width: 20px;
     margin-right: 10px;
+}
+
+.innercont{
+    width: 75%;
+    margin: auto;
+    padding-top: 50px;
+    padding: 10%;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #8a81be;
+    border-radius: 25px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
 }
