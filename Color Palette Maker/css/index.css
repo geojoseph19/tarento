@@ -75,21 +75,51 @@ nav ul li a{
 }
 
 .innercont{
-    width: 75%;
     margin: auto;
-    padding-top: 50px;
-    padding: 10%;
-}
-.box{
-    width: 100px;
-    height: 100px;
-    background-color: #8a81be;
-    border-radius: 25px;
+    padding-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .boxes{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+}
+.box{
+    width: 150px;
+    height: 250px;
+    background-color: #8a81be;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+    padding: 120px 0 100px;
+}
 
+.descriptions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    top: -25px;
+}
+.desc{
+    width: 150px;
+    height: 50px;
+    background-color: #333333;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+    padding: 15px 0 ;
+}
+#genbtn{
+    margin: auto;
+    margin-top: 6%;
 }
