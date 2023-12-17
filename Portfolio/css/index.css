@@ -6,16 +6,7 @@
     
 }
 
-@keyframes bodyanimation {
-    0% {background-color: rgba(253, 242, 253, 0.253);}
-    25%{background-color:rgba(255, 252, 244, 0.192);}
-    50%{background-color:rgba(245, 255, 246, 0.212);}
-    75%{background-color:rgba(255, 244, 244, 0.205);}
-    100% {background-color: rgba(255, 247, 251, 0.212);}
-  }
-body{
-    animation: bodyanimation 15s infinite;
-}
+
 .container{
     width: 100%;
     background-color: rgb(255, 255, 255);
@@ -24,6 +15,9 @@ body{
     padding: 0 0; /* set the header width */
     animation: bodyanimation 15s infinite;
 }
+
+
+
 
 nav{
     width: 100%;
@@ -43,7 +37,8 @@ nav{
     100% {background-color: rgb(255, 225, 240);}
   }
 .logo{
-    width: 180px;
+    width: 280px;
+    padding-left: 8%;
     cursor: pointer;
 }
 .icon{
@@ -86,80 +81,23 @@ nav ul li a{
     100% {background-color: rgb(160, 65, 117);}
   }
 
-#b1:hover,#b2:hover,#b3:hover,#b4:hover,#b5:hover{
-    box-shadow: 0 4px 4px 0 rgba(104, 104, 104, 0.2), 0 6px 20px 0 rgba(90, 90, 90, 0.19);
-    transition: 0.3s;
-}
 
-.innercont{
-    margin: auto;
-    padding-top: 7%;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-.boxes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    color: #fff;
-    margin-left: 10%;
-    margin-right: 10%;
+.details{
+    margin-left: 8%;
+    margin-top: 15%;
+    /* background-image: url("/images/wave.png");  */
     position: relative;
 }
-.box{
-    width: 150px;
-    height: 250px;
-    background-color: #ebebeb;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    text-align: center;
-    padding: 120px 0 100px;
+.bgwave{
+  width: 100%;
+
 }
 
-.descriptions{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    color: #8a8a8a;
-    margin-left: 10%;
-    margin-right: 10%;
-    position: relative;
-    top: -25px;
-    font-size: small;
-}
-.desc:hover{
-    color: #d6d6d6;
-    transition: 0.3s;
-}
-.desc{
-    width: 150px;
-    height: 50px;
-    background-color: #333333;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    text-align: center;
-    padding: 15px 0 ;
-}
-#genbtn{
-    margin: auto;
-    margin-top: 6%;
-}
-#settings{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-    gap: 20px;
-}
-  
-  .checkbox {
-    height: 20px;
-    width: 20px;
-    background-color: #eee;
-    border-top-width: 500px;
-    vertical-align: -4px;
-  }
+
+
+
+
+
 
   footer{
     background-color: #3b3b3b;
@@ -170,15 +108,4 @@ nav ul li a{
   }
   #mail:active,#mail:visited,#mail:link{
     color: #999999;
-  }
-
-  #resetbtn{
-    padding: 6px 10px;
-    border: 0;
-    outline: 0;
-    border-radius: 5px;
-    background: #dddddd;
-    color: #474747;
-    font-weight: 500;
-    cursor: pointer;
   }
